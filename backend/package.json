@@ -1,0 +1,23 @@
+{
+  "name": "project-yangzte-backend",
+  "version": "1.0.0",
+  "description": "backend service for project yangtze.",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^1.6.4",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^4.7.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "restify": "^7.2.3",
+    "restify-cors-middleware": "^1.1.1",
+    "sequelize": "^4.41.2",
+    "ttn": "^2.3.1"
+  }
+}
